@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "swingBallView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    swingBallView *ball = [[swingBallView alloc] initWithFrame:self.view.bounds ballColor:[UIColor orangeColor]];
+    [self.view addSubview:ball];
 }
 
 

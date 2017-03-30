@@ -15,6 +15,7 @@
 		167A52E51DF5AE77009EA342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167A52E31DF5AE77009EA342 /* LaunchScreen.storyboard */; };
 		167A52F01DF5AE77009EA342 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A52EF1DF5AE77009EA342 /* ___Tests.m */; };
 		167A52FB1DF5AE77009EA342 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A52FA1DF5AE77009EA342 /* ___UITests.m */; };
+		167A530D1DF5AFA8009EA342 /* swingBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A530C1DF5AFA8009EA342 /* swingBallView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		167A52F61DF5AE77009EA342 /* 牛顿摆UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "牛顿摆UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		167A52FA1DF5AE77009EA342 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		167A52FC1DF5AE77009EA342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167A530B1DF5AFA8009EA342 /* swingBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swingBallView.h; sourceTree = "<group>"; };
+		167A530C1DF5AFA8009EA342 /* swingBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = swingBallView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		167A52D41DF5AE77009EA342 /* 牛顿摆 */ = {
 			isa = PBXGroup;
 			children = (
+				167A530B1DF5AFA8009EA342 /* swingBallView.h */,
+				167A530C1DF5AFA8009EA342 /* swingBallView.m */,
 				167A52D81DF5AE77009EA342 /* AppDelegate.h */,
 				167A52D91DF5AE77009EA342 /* AppDelegate.m */,
 				167A52DB1DF5AE77009EA342 /* ViewController.h */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167A52DD1DF5AE77009EA342 /* ViewController.m in Sources */,
+				167A530D1DF5AFA8009EA342 /* swingBallView.m in Sources */,
 				167A52DA1DF5AE77009EA342 /* AppDelegate.m in Sources */,
 				167A52D71DF5AE77009EA342 /* main.m in Sources */,
 			);
